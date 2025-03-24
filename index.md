@@ -1,3 +1,10 @@
-Current Date and Time: {{ site.time | date: "%Y-%m-%d %H:%M:%S" }}
+---
+layout: home
+title: Welcome
+---
 
-Current User's Login: {{ site.author }}
+# Welcome to My Website
+
+Current time: {{ site.time | date: "%Y-%m-%d %H:%M:%S UTC" }}
+
+Hello! This is my personal website. Feel free to look around!
