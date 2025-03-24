@@ -5,12 +5,8 @@ description: "Welcome to my personal website"
 remote_theme: jekyll/minima
 minima:
   skin: auto
-  
+
 social_links:
-  - { platform: github,  user_url: "https://github.com/Lethios" }
+  - { platform: github, user_url: "https://github.com/Lethios" }
   - { platform: twitter, user_url: "https://twitter.com/LethiosDev" }
-    
-header_pages:
-  - about.md
-  - projects.md
   
