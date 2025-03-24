@@ -1,9 +1,7 @@
-# Welcome to My Site
+# Welcome To My Site
 
-This is my personal website, powered by GitHub Pages.
+Current Date and Time (UTC): {{ site.time | date: "%Y-%m-%d %H:%M:%S" }}
+Current User's Login: {{ site.author }}
 
 ## About Me
 I'm Lethios, and this is where I'll share my thoughts and projects.
-
-## Current Time
-{{ site.time | date: "%Y-%m-%d %H:%M:%S" }}
