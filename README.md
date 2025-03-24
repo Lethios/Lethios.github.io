@@ -1,4 +1,4 @@
-# lethios.github.io
+# Lethios.github.io
 
 My personal website repository, built with **GitHub Pages** and **Jekyll**.
 
