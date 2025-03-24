@@ -1,7 +1,5 @@
-# Welcome To My Site
+# lethios.github.io
 
-Current Date and Time (UTC): {{ site.time | date: "%Y-%m-%d %H:%M:%S" }}
-Current User's Login: {{ site.author }}
+My personal website repository, built with **GitHub Pages** and **Jekyll**.
 
-## About Me
-I'm Lethios, and this is where I'll share my thoughts and projects.
+View the site at: https://lethios.github.io
