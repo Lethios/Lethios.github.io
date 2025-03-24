@@ -7,4 +7,4 @@ remote_theme: jekyll/minima
 minima:
   skin: auto
 
-favicon: /assets/favicon.png?v=2
+favicon: /assets/favicon.png
