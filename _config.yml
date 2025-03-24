@@ -1,7 +1,8 @@
 title: "Lethios' Site"
+
 author: "Lethios"
 description: "Welcome to my personal website"
-theme: minima
 
+remote_theme: jekyll/minima
 minima:
   skin: auto
