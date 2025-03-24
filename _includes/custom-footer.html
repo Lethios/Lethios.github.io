@@ -1,5 +1,5 @@
 <div class="custom-footer-content">
-  <p>© {% if site.start_year and site.start_year != 'now' | date: "%Y" %}{{ site.start_year }}-{% endif %}{{ 'now' | date: "%Y" }} {{ site.author | default: "Lethios" }}. Thanks for visiting!</p>
+  <p>© {{ 'now' | date: "%Y" }} {{ site.author | default: "Lethios" }}. Thanks for visiting!</p>
   <div class="social-links">
     {% if site.minima.social_links %}
       <div class="social-links">
