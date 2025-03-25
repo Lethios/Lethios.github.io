@@ -1,6 +1,7 @@
 {%- if site.minima.social_links -%}
   <ul class="social-media-list">
     {%- for link in site.minima.social_links -%}
+      {%- if link.platform and link.user_url -%}
       <li>
         <a rel="me" href="{{ link.user_url }}" target="_blank" title="{{ link.platform | capitalize }}">
           <svg class="svg-icon grey">
@@ -8,6 +9,7 @@
           </svg>
         </a>
       </li>
+      {%- endif -%}
     {%- endfor -%}
   </ul>
 {%- endif -%}
