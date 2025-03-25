@@ -2,7 +2,7 @@
   <ul class="social-media-list">
     {%- for link in site.minima.social_links -%}
       <li>
-        <a rel="me" href="{{ link.user_url }}" target="_blank" title="{{ link.title | default: link.platform }}">
+        <a rel="me" href="{{ link.user_url }}" target="_blank" title="{{ link.platform | capitalize }}">
           <svg class="svg-icon grey">
             <use xlink:href="{{ '/assets/minima-social-icons.svg#' | append: link.platform | relative_url }}"></use>
           </svg>
