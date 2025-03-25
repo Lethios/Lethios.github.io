@@ -2,6 +2,6 @@
 layout: home
 ---
 
-Hello! This is my personal website. Feel free to look around!
+Welcome to my website!
 
-Current time: {{ site.time | date: "%Y-%m-%d %H:%M:%S UTC" }}
+Current Date and Time (UTC): {{ site.time | date: "%Y-%m-%d %H:%M:%S" }}
