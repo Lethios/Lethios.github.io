@@ -8,3 +8,8 @@ minima:
   social_links:
     - { platform: github,  user_url: "https://github.com/Lethios" }
     - { platform: twitter, user_url: "https://twitter.com/LethiosDev" }
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
