@@ -6,5 +6,5 @@ remote_theme: jekyll/minima
 minima:
   skin: auto
   social_links:
-    github: Lethios
-    twitter: LethiosDev
+    - { platform: github,  user_url: "https://github.com/Lethios" }
+    - { platform: twitter, user_url: "https://twitter.com/LethiosDev" }
